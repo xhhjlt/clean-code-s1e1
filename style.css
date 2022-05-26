@@ -13,7 +13,7 @@
 .header-img {
   width: 100%;
 }
-.header .more_inf {
+.header .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -137,11 +137,11 @@
   display: none;
 }
 
-.task-list .list-item.editMode .input[type=text] {
+.task-list .list-item.edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.task-list .list-item.editMode label {
+.task-list .list-item.edit-mode label {
   display: none;
 }
