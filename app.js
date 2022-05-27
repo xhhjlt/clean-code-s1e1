@@ -52,7 +52,7 @@ var createNewTaskElement=function(taskString){
     checkBox.classList.add("task__checkbox");
     editButton.classList.add("button");
     deleteButton.classList.add("button");
-    editInput.classList.add("input");
+    editInput.classList.add("task__input");
     label.classList.add("task__label")
 
 
