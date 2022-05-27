@@ -47,13 +47,14 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="button_delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.classList.add("button__img");
     deleteButton.appendChild(deleteButtonImg);
 
     checkBox.classList.add("task__checkbox");
     editButton.classList.add("button");
     deleteButton.classList.add("button");
     editInput.classList.add("task__input");
-    label.classList.add("task__label")
+    label.classList.add("task__label");
 
 
     //and appending.
