@@ -97,7 +97,7 @@
 }
 
 /* New Task */
-.input#new-task {
+.task__input_new {
   width: 318px;
 }
 
