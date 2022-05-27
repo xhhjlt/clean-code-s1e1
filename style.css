@@ -148,15 +148,15 @@
 }
 
 /* Edit Task */
-.task-list .task .input[type=text] {
+.task .input[type=text] {
   display: none;
 }
 
-.task-list .task.edit-mode .input[type=text] {
+.task_edit .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.task-list .task.edit-mode .task__label {
+.task_edit .task__label {
   display: none;
 }
