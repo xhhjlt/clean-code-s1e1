@@ -53,6 +53,7 @@ var createNewTaskElement=function(taskString){
     editButton.classList.add("button");
     deleteButton.classList.add("button");
     editInput.classList.add("input");
+    label.classList.add("task__label")
 
 
     //and appending.
